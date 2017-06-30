@@ -6,3 +6,18 @@ import registerServiceWorker from './registerServiceWorker';
 
 ReactDOM.render(<App />, document.getElementById('root'));
 registerServiceWorker();
+
+/*import React from 'react';
+import ReactDOM from 'react-dom';
+
+const MiPrimerComponente = ()=> (
+    <div className="text-center">
+        Hola Mundo
+    </div>
+
+);
+
+ReactDOM.render(
+    <MiPrimerComponente/>,
+document.getElementById('root')
+);*/
